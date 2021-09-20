@@ -482,6 +482,10 @@ label.logo {
 
 //subscribe section
 .subscribe-sec{
+    background-image: url(../images/bg555.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
     .subscribe-text{
         .subscribe-heading{
             color: #000;
@@ -542,11 +546,15 @@ label.logo {
 
 //contact section
 .contact-sec{
+    background-image: url(../images/bg4444.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-x: right;
     .image-box{
         display: flex;
         img{
             margin: auto 0;
-            width: 100%;
+            width: 70%;
         }
     }
     .contact-heading{
