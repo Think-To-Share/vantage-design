@@ -58,7 +58,9 @@
  {
     margin: 50px;
     display:none;
-   
+    @media(min-width:992px){
+        display: block;
+    }
 
 }
 
@@ -153,6 +155,7 @@ label.logo {
     }
     
     .heading-hero{
+
         display: flex;
         justify-content: center;
 
