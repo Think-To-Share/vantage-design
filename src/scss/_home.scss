@@ -58,6 +58,8 @@
  {
     margin: 50px;
     display:none;
+   
+
 }
 
 .header-main {
@@ -129,7 +131,10 @@ label.logo {
     // background-repeat: no-repeat;
     // background-position:bottom right ;
     padding-top: 20px;
-
+    padding-bottom: 0;
+    @media(min-width:768px){
+    padding-bottom: 35%;
+    }
     .hero-heading{
         text-transform: uppercase;
         font-weight: bold;
