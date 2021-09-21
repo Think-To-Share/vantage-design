@@ -69,6 +69,6 @@ module.exports = (_env, options) => {
             ],
           },
 
-        devtool: 'source-map'
+        devtool: isProduction ? 'eval':'source-map'
     }
 }
