@@ -54,8 +54,10 @@
 
 //heading section
 
-.heading-section {
+.heading-section
+ {
     margin: 50px;
+    display:none;
 }
 
 .header-main {
@@ -126,20 +128,31 @@ label.logo {
     // background-size: cover;
     // background-repeat: no-repeat;
     // background-position:bottom right ;
-    padding: 0% 0% 23% 0%;
+    padding-top: 20px;
 
     .hero-heading{
         text-transform: uppercase;
         font-weight: bold;
         color: #242323;
         font-family: 'Poppins', sans-serif;
+        text-align: center;
+        padding-top: 20px;
+        @media(min-width:768px){
+            text-align: left;
+        }
     }
     .hero-text{
-        padding-top: 30px;
+        padding-top: 20px;
+        text-align: center;
+        @media(min-width:768px){
+            text-align: left;
+        }
+
     }
     
     .heading-hero{
-        
+        display: flex;
+        justify-content: center;
         .first-btn{
             padding: 10px 20px;
             background-color: $primary-color;
@@ -147,6 +160,7 @@ label.logo {
             color: #fff;
             margin-right: 30px;
             font-family: 'Poppins', sans-serif;
+            
             &:hover{
                 background-color: #fff;
                 color: #000;
@@ -160,6 +174,8 @@ label.logo {
             color: #000;
             border-color: #555555;
             font-family: 'Poppins', sans-serif;
+            text-align: center;
+           
             &:hover{
                 background-color:$primary-color;
                 color: #fff;
@@ -186,7 +202,10 @@ label.logo {
         text-transform: uppercase;
         padding-top: 50px;
         font-family: 'Poppins', sans-serif;
-        // font-size:1.9em;
+        font-size: 20px;
+        @media(min-width:768px){
+        font-size: 3rem;
+        }
     }
     .vantage-heading-text {
         text-align: center;
@@ -261,6 +280,10 @@ label.logo {
         font-weight: bold;
         font-family: 'Poppins', sans-serif;
         text-align: center;
+        font-size: 20px;
+        @media(min-width:768px){
+        font-size: 3rem;
+        }
     }
     .container-heading-text{
         font-family: 'Poppins', sans-serif;
@@ -269,7 +292,12 @@ label.logo {
         padding-bottom: 30px;
         text-align: center;
     }
-    .table-striped{
+    .table-container{
+        overflow-x: scroll;
+        @media(min-width:768px) {
+            overflow:visible;
+        }
+        .table-striped{
             .past-perform-table{
                 background-color: #d7d7d7;
                 color: #242323;
@@ -280,19 +308,21 @@ label.logo {
                 }
                
             }
-    .past-perform-row{
-            background-color: #d7ebe4;
-            color: #242323;
-            td{
-                vertical-align:  middle;
-                text-transform: uppercase;
-                .stock-img{
-                    width: 80px;
+            .past-perform-row{
+                    background-color: #d7ebe4;
+                    color: #242323;
+                    td{
+                        vertical-align:  middle;
+                        text-transform: uppercase;
+                        .stock-img{
+                            width: 80px;
+                        }
+                    }
+                    
                 }
             }
-            
-        }
     }
+    
     .btn-container{
         display: flex;
         justify-content: center;
@@ -325,6 +355,16 @@ label.logo {
         text-transform: uppercase;
         padding-top: 50px;
         font-family: 'Poppins', sans-serif;
+        font-size: 20px;
+        @media(min-width:576px){
+            font-size: 30px;
+        }
+        @media(min-width:768px){
+            font-size: 40px;
+        }
+        @media(min-width:992px){
+            font-size: 3rem;
+        }
     }
     .product-heading-text {
         text-align: center;
@@ -397,6 +437,10 @@ label.logo {
     background-position-y: top;
 
     .image-box{
+        margin-bottom: 20%;
+        @media(min-width:768px){
+            margin-bottom:0;
+        }
         img{
             width: 100%;
         }
@@ -417,10 +461,13 @@ label.logo {
         }
 
         .comma {
-            width: 100px;
+            width: 73px;
             position: absolute;
             top: -40px;
             left: 20px;
+            @media(min-width:768px){
+                width: 100px;
+            }
         }
 
         .testimonials {
@@ -487,9 +534,14 @@ label.logo {
     background-position:bottom right ;
    
     .investment-img{
-        width: 50%;
+        width: 13%;
         display: flex;
         margin: 0 auto;
+        fill: #fff;
+        @media(min-width:768px){
+            width: 50%;
+        }
+        
     }
     .Achievement-text{
         color: #fff;
@@ -509,11 +561,14 @@ label.logo {
     .blogheading {
         color: #000;
         text-align: center;
-        font-size: 30px;
         font-weight: bold;
         margin-top: 50px;
         margin-bottom: 50px;
         font-family: 'Poppins', sans-serif;
+        font-size: 20px;
+        @media(min-width:768px){
+            font-size: 3rem;
+        }
     }
     .card{
         padding: 10px;
@@ -574,18 +629,20 @@ label.logo {
     background-repeat: no-repeat;
     background-position: center center;
     padding: 10% 0%;
-    .subscribe-text{
         .subscribe-heading{
             color: #000;
             text-align: center;
-            font-size: 30px;
             font-weight: bold;
             margin-top: 50px;
             margin-bottom: 50px;
             text-transform: uppercase;
             font-family: 'Poppins', sans-serif;
+            font-size: 20px;
+            @media(min-width:768px){
+                font-size: 3rem;
+            }
+
             // width: 100%;
-        }
         
         }
     .subscribe-form{ 
@@ -652,6 +709,10 @@ label.logo {
         padding-top: 10px;
         font-family: 'Poppins', sans-serif;
         text-align: center;
+        font-size: 20px;
+            @media(min-width:768px){
+                font-size: 3rem;
+            }
     }
     .contact-card{
         background-color: #fff;

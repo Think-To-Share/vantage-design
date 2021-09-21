@@ -7,13 +7,27 @@
     .logo{
         width: 300px;
         padding-top: 5%;
+        display: flex;
+        margin: 0 auto;
+                @media(min-width:768px){
+                   display:block;
+                   margin:0;
+                }
     }
     .footer-text {
         color: #fff;
         font-family: bluetext, sans-serief;
         font-size: 1em;
-        padding-top: 90px;
-        padding-bottom: 50px;
+        padding-top: 25px;
+        
+        .footer-heading{
+            text-align: center;
+            @media(min-width:768px){
+                text-align: left;
+                padding-top: 60px;
+                padding-bottom: 8px;
+            }
+        }
         .footer-heading {
             color: #fff;
             margin-bottom: 20px;
@@ -25,12 +39,20 @@
                 list-style-type: none;
                 margin-bottom: 20px;
                 font-family: 'Poppins', sans-serif;
+                text-align: center;
+                @media(min-width:768px){
+                    text-align: left;
+                }
             }
         }
         .footer-heading {
             color: #fff;
             margin-bottom: 20px;
             font-family: 'Poppins', sans-serif;
+            text-align: center;
+                @media(min-width:768px){
+                    text-align: left;
+                }
         }
         .footer-menu2 {
             padding-left: 0;
@@ -38,6 +60,11 @@
                 list-style-type: none;
                 margin-bottom: 20px;
                 font-family: 'Poppins', sans-serif;
+                text-align: center;
+                @media(min-width:768px){
+                    text-align: left;
+                }
+                
             }
         }
         .footer-heading {
@@ -50,6 +77,10 @@
             li {
                 list-style-type: none;
                 margin-bottom: 20px;
+                text-align: center;
+                @media(min-width:768px){
+                    text-align: left;
+                }
             }
         }
     }
@@ -67,7 +98,7 @@
     //     padding-bottom:50px;
 
     // }
-}
+    }
 
 /* copyright css */
 .copy-right {
