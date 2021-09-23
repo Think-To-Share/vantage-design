@@ -579,35 +579,39 @@ label.logo {
             font-size: 3rem;
         }
     }
-    .card{
-        padding: 10px;
-        transition: all ease-in-out 0.3s;
-
-        .card-body{
-            .card-title{
-                text-align: center;
-                font-weight: bold;
-                text-transform: uppercase;
-                padding-top: 50px;
-                font-family: 'Poppins', sans-serif;
+    .blog-link{
+        text-decoration: none;
+        color: inherit;
+        .card{
+            padding: 10px;
+            transition: all ease-in-out 0.3s;
+    
+            .card-body{
+                .card-title{
+                    text-align: center;
+                    font-weight: bold;
+                    text-transform: uppercase;
+                    padding-top: 50px;
+                    font-family: 'Poppins', sans-serif;
+                }
+                .card-text {
+                    text-align: center;
+                    padding: 30px;
+                    font-family: 'Poppins', sans-serif;
+                }
+                
             }
-            .card-text {
-                text-align: left;
-                padding: 30px;
-                font-family: 'Poppins', sans-serif;
-            }
-            
-        }
-
-        &:hover {
-            background-color:#d6f7ec;
-            color: #225513;
-            box-shadow: 6px 6px 18px 3px #b1a8a8;
-            .product-text {
-                color: #fff;
-            }
-            a {
-                color: #fff;
+    
+            &:hover {
+                background-color:#d6f7ec;
+                color: #225513;
+                box-shadow: 6px 6px 18px 3px #b1a8a8;
+                .product-text {
+                    color: #fff;
+                }
+                a {
+                    color: #fff;
+                }
             }
         }
     }
