@@ -20,29 +20,39 @@
         font-size: 1em;
         padding-top: 25px;
         
-        .footer-heading{
-            text-align: center;
-            @media(min-width:768px){
-                text-align: left;
-                padding-top: 60px;
-                padding-bottom: 8px;
-            }
-        }
-        .footer-heading {
-            color: #fff;
-            margin-bottom: 20px;
-            font-family: 'Poppins', sans-serif;
-        }
-        .footer-menu1 {
+        // .footer-heading{
+        //     text-align: center;
+        //     @media(min-width:768px){
+        //         text-align: left;
+        //         padding-top: 60px;
+        //         padding-bottom: 8px;
+        //     }
+        // }
+        // .footer-heading {
+        //     color: #fff;
+        //     margin-bottom: 20px;
+        //     font-family: 'Poppins', sans-serif;
+        // }
+        ul {
             padding-left: 0;
+            margin: 0;
+            list-style-type: none;
+
             li {
-                list-style-type: none;
                 margin-bottom: 20px;
                 font-family: 'Poppins', sans-serif;
                 text-align: center;
                 @media(min-width:768px){
                     text-align: left;
                 }
+
+                a{
+                    color: inherit;
+                    text-decoration: none;
+                    &:hover{
+                        text-decoration: underline;
+                    }
+                }
             }
         }
         .footer-heading {
@@ -54,19 +64,19 @@
                     text-align: left;
                 }
         }
-        .footer-menu2 {
-            padding-left: 0;
-            li {
-                list-style-type: none;
-                margin-bottom: 20px;
-                font-family: 'Poppins', sans-serif;
-                text-align: center;
-                @media(min-width:768px){
-                    text-align: left;
-                }
+        // .footer-menu2 {
+        //     padding-left: 0;
+        //     li {
+        //         list-style-type: none;
+        //         margin-bottom: 20px;
+        //         font-family: 'Poppins', sans-serif;
+        //         text-align: center;
+        //         @media(min-width:768px){
+        //             text-align: left;
+        //         }
                 
-            }
-        }
+        //     }
+        // }
         .footer-heading {
             color: #fff;
             margin-bottom: 20px;
