@@ -1,25 +1,25 @@
 .footer-sec {
     background: #29313a;
-    background-image:url(../images/footer.jpg) ;
+    background-image: url(../images/footer.jpg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    .logo{
+    .logo {
         width: 300px;
         padding-top: 5%;
         display: flex;
         margin: 0 auto;
-                @media(min-width:768px){
-                   display:block;
-                   margin:0;
-                }
+        @media (min-width: 768px) {
+            display: block;
+            margin: 0;
+        }
     }
     .footer-text {
         color: #fff;
         font-family: bluetext, sans-serief;
         font-size: 1em;
         padding-top: 25px;
-        
+
         // .footer-heading{
         //     text-align: center;
         //     @media(min-width:768px){
@@ -42,14 +42,14 @@
                 margin-bottom: 20px;
                 font-family: 'Poppins', sans-serif;
                 text-align: center;
-                @media(min-width:768px){
+                @media (min-width: 768px) {
                     text-align: left;
                 }
 
-                a{
+                a {
                     color: inherit;
                     text-decoration: none;
-                    &:hover{
+                    &:hover {
                         text-decoration: underline;
                     }
                 }
@@ -60,9 +60,9 @@
             margin-bottom: 20px;
             font-family: 'Poppins', sans-serif;
             text-align: center;
-                @media(min-width:768px){
-                    text-align: left;
-                }
+            @media (min-width: 768px) {
+                text-align: left;
+            }
         }
         // .footer-menu2 {
         //     padding-left: 0;
@@ -74,7 +74,7 @@
         //         @media(min-width:768px){
         //             text-align: left;
         //         }
-                
+
         //     }
         // }
         .footer-heading {
@@ -88,7 +88,7 @@
                 list-style-type: none;
                 margin-bottom: 20px;
                 text-align: center;
-                @media(min-width:768px){
+                @media (min-width: 768px) {
                     text-align: left;
                 }
             }
@@ -108,7 +108,7 @@
     //     padding-bottom:50px;
 
     // }
-    }
+}
 
 /* copyright css */
 .copy-right {

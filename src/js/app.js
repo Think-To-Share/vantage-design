@@ -1,3 +1,3 @@
 require('../scss/app.scss')
 
-require('./_homepage');
+require('./_homepage')
