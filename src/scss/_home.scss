@@ -1,8 +1,10 @@
-.hero-bg {
-    // background-image: url(../images/hero-section.jpg);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+body {
+    @media (min-width: 992px) {
+        background-image:  url('../images/hero-section-images/left-top.jpg'), url('../images/hero-section-images/right-top.jpg');
+        background-position: top left, top right;
+        background-size: 25%, 40%;
+        background-repeat: no-repeat;
+    }
 }
 
 .header-content-wrapper {
@@ -150,6 +152,7 @@
                     background-color: $primary-color;
                     position: relative;
                     display: block;
+                    border-radius: 50%;
 
                     @media (min-width: 576px) {
                        width: auto;
@@ -157,6 +160,7 @@
                        background-color: transparent;
                        position: initial;
                        display: initial;
+                       border-radius: initial;
                     }
 
                     i {
@@ -384,6 +388,11 @@
                 th {
                     padding-top: 20px;
                     padding-bottom: 20px;
+                    font-size: 0.8em;
+
+                    @media (min-width: 768px) {
+                        font-size: var(--bs-body-font-size);
+                    }
                 }
             }
             .past-perform-row {
@@ -392,8 +401,18 @@
                 td {
                     vertical-align: middle;
                     text-transform: uppercase;
+                    font-size: 0.8em;
+
+                    @media (min-width: 768px) {
+                        font-size: var(--bs-body-font-size);
+                    }
+
                     .stock-img {
-                        width: 80px;
+                        width: 50px;
+
+                        @media (min-width: 768px) {
+                            width: 80px;
+                        }
                     }
                 }
             }
@@ -751,8 +770,6 @@
             width: 100%;
             background-color: $primary-color;
             color: #fff;
-            margin-right: 30px;
-    
             padding: 10px;
             font-size: 1.2em;
 
