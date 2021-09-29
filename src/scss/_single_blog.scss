@@ -1,0 +1,30 @@
+.post_main {
+    * {
+        font-family: $primary-font;
+    }
+
+    .post-title {
+        font-weight: 700;
+        color: #222;
+    }
+
+    .post-image-container {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        margin-top: 30px;
+
+        img {
+            width: 80%;
+        }
+    }
+
+    .main-post-content {
+        margin-top: 80px;
+        margin-bottom: 70px;
+
+        h2, h3, h4, h5, h6 {
+            font-weight: 700;
+        }
+    }
+}

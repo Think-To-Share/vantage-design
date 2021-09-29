@@ -1,0 +1,55 @@
+.page-title {
+    text-align: center;
+    font-family: $primary-font;
+    font-weight: 700;
+    color: #222;
+}
+
+.all-posts-main {
+    margin-top: 80px;
+    margin-bottom: 70px;
+
+    .single-post {
+        font-family: $primary-font;
+
+        .post-main {
+            height: 100%;
+            border: 1px solid #9b9b9b;
+
+            .img-container {
+                width: 100%;
+
+                img {
+                    width: 100%;
+                }
+            }
+
+            .content {
+                margin-top: 10px;
+                padding: 20px 15px;
+                word-break: break-all;
+
+                .post-title {
+                    font-weight: 700;
+                }
+
+                .post-text {
+                    color: #898989;
+                }
+
+                .post-link {
+                    padding: 10px 20px;
+                    background-color: $primary-color;
+                    border-radius: 10px;
+                    color: #fff;
+
+                    &:hover {
+                        background-color: #fff;
+                        color: #000;
+                        border-color: #555555;
+                    }
+                }
+            }
+        }
+    }
+}
