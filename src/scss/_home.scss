@@ -347,6 +347,22 @@ body {
             }
         }
     }
+    .modal-img{
+        margin-bottom: 2%;
+        .m-img{
+            width: 15%;
+            fill: $primary-color;
+        }
+        .m-popup-title{
+            text-align: left;
+            font-family: $primary-font;
+            font-weight: 600;
+        }
+        .m-popup-description{
+            text-align: center;
+            font-family: $primary-font;
+        }
+    }
 }
 // end why vantage
 

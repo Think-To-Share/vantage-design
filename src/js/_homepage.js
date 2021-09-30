@@ -10,3 +10,4 @@ if (document.querySelector('.testimonials-section')) {
         autoplayButtonOutput: false,
     })
 }
+
