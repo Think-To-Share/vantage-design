@@ -293,6 +293,7 @@ body {
     .vantage-heading-text {
         text-align: center;
         padding: 50px;
+        font-style: italic;
 
     }
     .vantage {
@@ -373,7 +374,8 @@ body {
         text-transform: uppercase;
         padding-top: 30px;
         padding-bottom: 30px;
-        text-align: center;
+        text-align: center; 
+        font-style: italic;
     }
     .table-container {
         overflow-x: scroll;
@@ -385,6 +387,7 @@ body {
                 background-color: #d7d7d7;
                 color: #242323;
                 text-transform: uppercase;
+                text-align: center;
                 th {
                     padding-top: 20px;
                     padding-bottom: 20px;
@@ -398,6 +401,7 @@ body {
             .past-perform-row {
                 background-color: #d7ebe4;
                 color: #242323;
+                text-align: center;
                 td {
                     vertical-align: middle;
                     text-transform: uppercase;
@@ -464,6 +468,7 @@ body {
     .product-heading-text {
         text-align: center;
         padding: 50px;
+        font-style: italic;
 
     }
     .product {
@@ -569,13 +574,21 @@ body {
             .testimonial {
                 .text {
                     color: #fff;
-                    text-transform: uppercase;
                     padding: 20px 30px;
                     margin-bottom: 0;
                     font-size: 0.9em;
             
                 }
             }
+            .designation{
+                p{
+                    text-align: right;
+                    padding-right: 40px;
+                    margin: 0;
+                    color: #fff;
+                }
+            }
+          
         }
     }
 
@@ -723,12 +736,12 @@ body {
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
-    padding: 10% 0%;
+    padding: 0% 0%;
     .subscribe-heading {
         color: #000;
         text-align: center;
         font-weight: bold;
-        margin-top: 50px;
+        margin-top: 0;
         margin-bottom: 50px;
         text-transform: uppercase;
 
@@ -738,6 +751,11 @@ body {
         }
 
         // width: 100%;
+    }
+    .subscribe-heading-text{
+        text-align: center;
+        font-style: italic;
+        padding-bottom: 20px;
     }
     .subscribe-form {
         background-color: #fff;
