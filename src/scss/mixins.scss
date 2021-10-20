@@ -1,0 +1,39 @@
+@mixin post-box($base-font-size: 5px) {
+    height: 100%;
+    border: 1px solid $primary-color;
+
+    .img-container {
+        width: 100%;
+
+        img {
+            width: 100%;
+        }
+    }
+
+    .content {
+        margin-top: $base-font-size * 2;
+        padding: ($base-font-size * 4) ($base-font-size * 3);
+        word-break: break-all;
+
+        .post-title {
+            font-weight: 700;
+        }
+
+        .post-text {
+            color: #898989;
+        }
+
+        .post-link {
+            padding: ($base-font-size * 2) ($base-font-size * 4);
+            background-color: $primary-color;
+            border-radius: $base-font-size * 2;
+            color: #fff;
+
+            &:hover {
+                background-color: #fff;
+                color: #000;
+                border-color: #555555;
+            }
+        }
+    }
+}

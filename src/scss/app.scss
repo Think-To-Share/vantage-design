@@ -3,9 +3,11 @@
 @import '~tiny-slider/dist/tiny-slider.css';
 
 @import './variable';
+@import './mixins.scss';
 @import './common';
 @import './home';
 @import './header';
 @import './footer';
 @import './single_blog';
 @import './blog';
+@import './dashboard';
